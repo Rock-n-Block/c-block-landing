@@ -4,7 +4,6 @@ html
   link(rel="stylesheet", href="./styles/index.css")
   link(rel="stylesheet", href="./styles/product.css")
   body
-    script(src="./theme.js")
     include ../../includes/background/background
     include ../../includes/header/header
     main
@@ -15,5 +14,4 @@ html
       include ../../includes/team/team
       include ../../includes/partners/partners
     include ../../includes/product-page/components/footer/footer
-    //- script(src="./bg.js")
-    script(src="./product.js")
+    script(src="./product.js" defer)
