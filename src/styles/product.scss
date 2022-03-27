@@ -1,0 +1,8 @@
+@import "./mixins";
+@import "../includes/product-page/components/footer/footer";
+
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    // font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background: var(--product-body-bg);
+}

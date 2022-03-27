@@ -1,0 +1,19 @@
+.product {
+    &__footer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 36px 0;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            content: "";
+            height: 1px;
+            width: 100%;
+            opacity: 0.2;
+            background: var(--product-footer-border-color);
+        }
+    }
+}
